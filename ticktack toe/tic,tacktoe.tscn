@@ -1,0 +1,247 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tic,tacktoe.gd" type="Script" id=1]
+[ext_resource path="res://Montserrat-ExtraBold.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 150
+font_data = ExtResource( 2 )
+
+[node name="tic,tacktoe" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="Label2" type="Label" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 538.054
+margin_top = 106.572
+margin_right = 665.054
+margin_bottom = 290.573
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 538.054
+margin_top = 319.332
+margin_right = 665.054
+margin_bottom = 503.332
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_left = -2.0
+margin_top = -2.0
+margin_right = 1022.0
+margin_bottom = 600.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="1,0" type="Button" parent="Node2D"]
+margin_top = 192.022
+margin_right = 150.0
+margin_bottom = 342.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/1,0"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0,0" type="Button" parent="Node2D"]
+margin_top = 40.2596
+margin_right = 150.0
+margin_bottom = 190.26
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/0,0"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0,1" type="Button" parent="Node2D"]
+margin_left = 150.0
+margin_top = 40.2596
+margin_right = 300.0
+margin_bottom = 190.26
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/0,1"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0,2" type="Button" parent="Node2D"]
+margin_left = 300.0
+margin_top = 40.2596
+margin_right = 450.0
+margin_bottom = 190.26
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/0,2"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1,2" type="Button" parent="Node2D"]
+margin_left = 300.0
+margin_top = 192.022
+margin_right = 450.0
+margin_bottom = 342.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/1,2"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1,1" type="Button" parent="Node2D"]
+margin_left = 150.0
+margin_top = 192.022
+margin_right = 300.0
+margin_bottom = 342.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/1,1"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2,0" type="Button" parent="Node2D"]
+margin_top = 342.022
+margin_right = 150.0
+margin_bottom = 492.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/2,0"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2,1" type="Button" parent="Node2D"]
+margin_left = 150.0
+margin_top = 342.022
+margin_right = 300.0
+margin_bottom = 492.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/2,1"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2,2" type="Button" parent="Node2D"]
+margin_left = 300.0
+margin_top = 342.022
+margin_right = 450.0
+margin_bottom = 492.022
+text = " "
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Node2D/2,2"]
+margin_left = 16.6433
+margin_top = -19.5243
+margin_right = 143.643
+margin_bottom = 164.476
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_down" from="Node2D/1,0" to="." method="_on_10_button_down"]
+[connection signal="button_down" from="Node2D/0,0" to="." method="_on_00_button_down"]
+[connection signal="button_down" from="Node2D/0,1" to="." method="_on_01_button_down"]
+[connection signal="button_down" from="Node2D/0,2" to="." method="_on_02_button_down"]
+[connection signal="button_down" from="Node2D/1,2" to="." method="_on_12_button_down"]
+[connection signal="button_down" from="Node2D/1,1" to="." method="_on_11_button_down"]
+[connection signal="button_down" from="Node2D/2,0" to="." method="_on_20_button_down"]
+[connection signal="button_down" from="Node2D/2,1" to="." method="_on_21_button_down"]
+[connection signal="button_down" from="Node2D/2,2" to="." method="_on_22_button_down"]
