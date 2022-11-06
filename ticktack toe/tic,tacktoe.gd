@@ -1,6 +1,7 @@
 extends Node2D
-
+var maker = "Vyoam"
 var turn1 = true
+
 var ch = 'X'
 var ch2 = 'O'
 var row1 = [
